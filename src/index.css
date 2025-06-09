@@ -1,0 +1,48 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+    margin: 0;
+    background-color: black !important;
+}
+/* .Hero_section{
+    background-image: url(../src/assets/images/car2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+ 
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated-text {
+  animation: slideIn 0.6s ease-out forwards;
+}
+img{
+  border-radius: 5px;
+}
+.gallery_content{
+  width: 50%;
+  padding: 15px;
+  padding-top: 40px;
+}
+
+.Footer a, h5, p{
+  color:#fff !important;
+}
+.nav-link {
+  color:  white !important;
+      padding: 6px 20px !important;
+      letter-spacing: 1.4px;
+}
+/* .navbar{
+  background-color: #181818;
+} */

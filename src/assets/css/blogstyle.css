@@ -1,0 +1,123 @@
+/* ===================== TABLE OF CONTENT =======================
+ 
+17.About Page
+ 
+
+     
+/* ================================================================================== 
+									17. About Page
+===================================================================================== */
+.about-section {
+  padding: 10px 0;
+  padding-bottom:50px;
+      background: #181818;
+}
+.about-inner {
+  position: relative;
+  height: 400px;
+  align-items: center;
+}
+.about-section .about-text {
+  background: #000;
+  padding: 100px;
+  padding-bottom: 150px;
+  margin: 50px 0;
+  /* padding-bottom: 0px; */
+}
+.about-text .about-title {
+  font-family: "poppins", serif;
+  margin-bottom: 15px;
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+.about-text .about-title:before {
+  content: "";
+  height: 3px;
+  width: 100px;
+  background: #fff;
+  position: absolute;
+  left: 100%;
+  margin-left: 15px;
+  bottom: 5px;
+}
+.about-inner-2 .about-text .about-title:before {
+  left: auto;
+  right: 100%;
+  z-index: 11;
+  margin-right: 15px;
+}
+.about-text p {
+  color: #838383;
+}
+.about-section .about-img {
+  height: 520px;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.15);
+}
+
+.about-section .about-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.about-inner-2 .about-img {
+  margin: 0 100px;
+}
+.about-inner-2 .about-text {
+  width: 100%;
+  padding: 100px;
+  padding-left: 0;
+  margin: 50px 0;
+  background: transparent;
+}
+.author-section {
+  margin-bottom: 30px;
+}
+.author-section h2 {
+  text-align: center;
+  font-family: "poppins", serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.author-card {
+  text-align: center;
+  align-items: center;
+  border: none;
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+}
+.author-card .card-img {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+.author-card .card-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.author-card h5{
+  margin-bottom:4px;
+}
+.author-card h5 a {
+  font-weight: 500;
+  color: #333;
+}
+.author-card h5 a:hover {
+  color: #303c6c;
+}
+.author-card p {
+  padding:20px 0;
+}
+.author-card small {
+  color: #f4976c;
+  font-style: italic;
+} 
+
+
+
