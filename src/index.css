@@ -14,7 +14,7 @@ body {
  
 @keyframes slideIn {
   from {
-    opacity: 0;
+    opacity: 0; 
     transform: translateY(20px);
   }
   to {
@@ -38,7 +38,7 @@ img{
 .Footer a, h5, p{
   color:#fff !important;
 }
-.nav-link {
+.navbar .nav-link {
   color:  white !important;
       padding: 6px 20px !important;
       letter-spacing: 1.4px;
@@ -46,3 +46,33 @@ img{
 /* .navbar{
   background-color: #181818;
 } */
+.page-header {
+    position: relative;
+    background: url(assets/images/page-header-bg.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 46px;
+    overflow: hidden;
+    padding: 140px 0;
+}
+.page-header-box {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+}
+.page-header h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.page-header p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.tabimg{
+  border-radius: 30px !important;
+  height: 470px !important;
+  width: 100% !important;
+}
+ 
+ 
